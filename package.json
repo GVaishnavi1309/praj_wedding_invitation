@@ -1,0 +1,21 @@
+{
+  "name": "prajwal-prajna-wedding",
+  "version": "1.0.0",
+  "description": "Traditional South Indian Wedding Invitation Website for Prajwal and Prajna",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve . -l 3000",
+    "dev": "npx serve . -l 3000",
+    "build": "echo 'Static production ready'"
+  },
+  "keywords": [
+    "wedding",
+    "invitation",
+    "south-indian",
+    "prajwal",
+    "prajna",
+    "udupi"
+  ],
+  "author": "Antigravity",
+  "license": "MIT"
+}

@@ -1,0 +1,854 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title>Wedding Invitation | Prajwal &amp; Prajna</title>
+  <meta name="description" content="With the blessings of our elders and families, you are cordially invited to the wedding ceremony of Prajwal and Prajna on 26 November 2026 at Udupi Grameena Sabhabhavana.">
+  <meta name="theme-color" content="#5a0c19">
+
+  <!-- Open Graph & WhatsApp Sharing Metadata -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Prajwal &amp; Prajna Wedding Invitation | 26 November 2026">
+  <meta property="og:description" content="Muhurtham: 9:31 AM | Venue: Udupi Grameena Sabhabhavana, Moodubelle Road, Kuntalanagara. Join us to celebrate our auspicious day!">
+  <meta property="og:image" content="assets/images/couple-traditional.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <!-- Google Fonts: Traditional Serif, Indian Inscriptions & Clean Body -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700;900&family=Cinzel:wght@500;600;700;800&family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Rozha+One&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='%235a0c19' stroke='%23d4af37' stroke-width='4'/><path d='M50 20 C40 35 30 50 50 80 C70 50 60 35 50 20 Z' fill='%23d4af37'/><circle cx='50' cy='35' r='5' fill='%23fff2a3'/></svg>">
+</head>
+<body class="bg-ivory text-maroon-dark">
+
+  <!-- Canvas for Falling Jasmine Petals -->
+  <canvas id="petalsCanvas" aria-hidden="true"></canvas>
+
+  <!-- ========================================================
+       SECTION A: OPENING INVITATION (ROYAL SOUTH INDIAN ENVELOPE)
+       ======================================================== -->
+  <div id="openingScreen" class="opening-screen" role="dialog" aria-modal="true" aria-label="Wedding Invitation Envelope">
+    <div class="opening-overlay"></div>
+    
+    <!-- Decorative Mango Leaves Toran at Top of Invitation -->
+    <div class="toran-container" aria-hidden="true">
+      <div class="toran-string"></div>
+      <div class="toran-leaves">
+        <span class="mango-leaf"></span><span class="marigold"></span>
+        <span class="mango-leaf"></span><span class="marigold"></span>
+        <span class="mango-leaf"></span><span class="marigold gold"></span>
+        <span class="mango-leaf"></span><span class="marigold"></span>
+        <span class="mango-leaf"></span><span class="marigold"></span>
+        <span class="mango-leaf"></span>
+      </div>
+    </div>
+
+    <!-- The Auspicious Invitation Card Container -->
+    <div class="royal-card-wrapper">
+      <div class="royal-card">
+        <!-- Kundan & Zari Borders -->
+        <div class="card-border-ornament top-left" aria-hidden="true"></div>
+        <div class="card-border-ornament top-right" aria-hidden="true"></div>
+        <div class="card-border-ornament bottom-left" aria-hidden="true"></div>
+        <div class="card-border-ornament bottom-right" aria-hidden="true"></div>
+
+        <!-- Hanging Jasmine Gajra Garlands on Flanks -->
+        <div class="jasmine-garland left" aria-hidden="true"></div>
+        <div class="jasmine-garland right" aria-hidden="true"></div>
+
+        <div class="royal-card-content">
+          <!-- Auspicious Inscription -->
+          <div class="auspicious-shloka">
+            <span class="sanskrit-phrase">॥ ಶ್ರೀ ಗಣೇಶಾಯ ನಮಃ ॥</span>
+            <span class="shloka-sub">Om Shri Ganeshaya Namaha</span>
+          </div>
+
+          <!-- Traditional Brass Nilavilakku Lamps with Animated Flickering Flames -->
+          <div class="nilavilakku-row" aria-hidden="true">
+            <div class="nilavilakku-lamp">
+              <div class="lamp-flame"></div>
+              <div class="lamp-bowl"></div>
+              <div class="lamp-stem"></div>
+              <div class="lamp-base"></div>
+            </div>
+            <div class="mandala-seal">
+              <svg viewBox="0 0 100 100" class="mandala-svg">
+                <circle cx="50" cy="50" r="45" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="3 3"/>
+                <circle cx="50" cy="50" r="36" fill="none" stroke="currentColor" stroke-width="1"/>
+                <path d="M50 15 L53 35 L70 25 L60 40 L85 50 L60 60 L70 75 L53 65 L50 85 L47 65 L30 75 L40 60 L15 50 L40 40 L30 25 L47 35 Z" fill="currentColor" opacity="0.85"/>
+                <circle cx="50" cy="50" r="12" fill="#5a0c19" stroke="#d4af37" stroke-width="2"/>
+                <circle cx="50" cy="50" r="4" fill="#ffd700"/>
+              </svg>
+            </div>
+            <div class="nilavilakku-lamp">
+              <div class="lamp-flame"></div>
+              <div class="lamp-bowl"></div>
+              <div class="lamp-stem"></div>
+              <div class="lamp-base"></div>
+            </div>
+          </div>
+
+          <div class="invitation-lead">You are cordially invited to celebrate the wedding of</div>
+
+          <h1 class="couple-names-royal">
+            <span class="name-groom">Prajwal</span>
+            <span class="royal-amp">&amp;</span>
+            <span class="name-bride">Prajna</span>
+          </h1>
+
+          <div class="ornamental-divider" aria-hidden="true">
+            <span class="divider-line"></span>
+            <span class="divider-motif">✦ ❖ ✦</span>
+            <span class="divider-line"></span>
+          </div>
+
+          <div class="wedding-date-tag">
+            <span class="calendar-icon" aria-hidden="true">𑁍</span>
+            <span class="date-highlight">26 November 2026</span>
+          </div>
+          <div class="muhurtham-tag">Muhurtham: 9:31 AM IST</div>
+
+          <p class="opening-greeting-note">
+            "With the blessings of our elders and the love of our families."
+          </p>
+
+          <!-- Interactive Open Invitation Button -->
+          <button id="openInvitationBtn" class="btn-royal-open" aria-label="Open wedding invitation">
+            <span class="btn-shine" aria-hidden="true"></span>
+            <span class="btn-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14.5v-9l6 4.5-6 4.5z"/>
+              </svg>
+            </span>
+            <span class="btn-text">Open Invitation</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================
+       MAIN WEBSITE CONTENT (REVEALED SMOOTHLY)
+       ======================================================== -->
+  <div id="mainWebsite" class="main-website">
+
+    <!-- Top Traditional Toran Banner -->
+    <header class="traditional-header" aria-hidden="true">
+      <div class="header-toran">
+        <div class="toran-garland-repeater"></div>
+      </div>
+    </header>
+
+    <!-- Quick Navigation Bar -->
+    <nav class="traditional-nav" aria-label="Invitation Navigation">
+      <div class="nav-container">
+        <a href="#hero" class="nav-brand">Prajwal &amp; Prajna</a>
+        <div class="nav-links">
+          <a href="#invitation" class="nav-link">Invitation</a>
+          <a href="#countdown" class="nav-link">Muhurtham</a>
+          <a href="#gallery" class="nav-link">Couple</a>
+          <a href="#ceremony" class="nav-link">Ceremony</a>
+          <a href="#venue" class="nav-link">Venue</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ========================================================
+         SECTION B: HERO SECTION
+         ======================================================== -->
+    <section id="hero" class="hero-section">
+      <div class="hero-backdrop" aria-hidden="true"></div>
+      
+      <div class="hero-container">
+        <!-- Auspicious Vedic Shloka Header -->
+        <div class="hero-header-motif">
+          <div class="lotus-motif" aria-hidden="true">
+            <svg viewBox="0 0 100 60" width="60" height="36" fill="currentColor">
+              <path d="M50 5 C45 20 20 25 15 45 C30 45 42 35 50 15 C58 35 70 45 85 45 C80 25 55 20 50 5 Z" fill="#d4af37"/>
+              <circle cx="50" cy="50" r="4" fill="#ffd700"/>
+            </svg>
+          </div>
+          <span class="sacred-mantra">॥ ಮಾಂಗಲ್ಯಂ ತಂತು ನಾನೇನ ಮಮ ಜೀವನ ಹೇತುನಾ ॥</span>
+          <span class="sacred-mantra-sub">In the presence of the Divine and our beloved families</span>
+        </div>
+
+        <!-- Real Couple Photo with Traditional Zari & Kundan Frame -->
+        <div class="hero-photo-wrapper">
+          <div class="traditional-gold-frame">
+            <div class="frame-corner c-tl"></div>
+            <div class="frame-corner c-tr"></div>
+            <div class="frame-corner c-bl"></div>
+            <div class="frame-corner c-br"></div>
+            
+            <div class="photo-inner">
+              <img src="assets/images/couple-traditional.jpg" 
+                   alt="Prajwal and Prajna in traditional South Indian wedding attire" 
+                   class="hero-couple-img" 
+                   loading="eager">
+              <div class="photo-gold-sheen" aria-hidden="true"></div>
+            </div>
+          </div>
+          
+          <!-- Traditional Brass Nilavilakku Lamps on Flanks -->
+          <div class="hero-lamp-stand left-lamp" aria-hidden="true">
+            <div class="lamp-flame"></div>
+            <div class="lamp-bowl"></div>
+            <div class="lamp-stem"></div>
+            <div class="lamp-base"></div>
+          </div>
+          <div class="hero-lamp-stand right-lamp" aria-hidden="true">
+            <div class="lamp-flame"></div>
+            <div class="lamp-bowl"></div>
+            <div class="lamp-stem"></div>
+            <div class="lamp-base"></div>
+          </div>
+        </div>
+
+        <!-- Hero Typography -->
+        <div class="hero-typography">
+          <h2 class="hero-title">
+            <span class="hero-name">PRAJWAL</span>
+            <span class="hero-symbol">&amp;</span>
+            <span class="hero-name">PRAJNA</span>
+          </h2>
+
+          <div class="hero-tagline-container">
+            <span class="quote-mark">“</span>
+            <p class="hero-quote">Two hearts, one beautiful journey.</p>
+            <span class="quote-mark">”</span>
+          </div>
+
+          <div class="hero-date-badge">
+            <span class="date-icon" aria-hidden="true">✤</span>
+            <span class="date-text">26 NOVEMBER 2026</span>
+            <span class="date-icon" aria-hidden="true">✤</span>
+          </div>
+          <div class="hero-muhurtham-note">Udupi Grameena Sabhabhavana • 9:31 AM IST</div>
+        </div>
+
+        <!-- Scroll Down Cue -->
+        <a href="#invitation" class="scroll-down-cue" aria-label="Scroll to wedding invitation">
+          <span class="scroll-text">View Invitation</span>
+          <span class="scroll-arrow" aria-hidden="true">▼</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Section Ornamental Divider -->
+    <div class="section-divider" aria-hidden="true">
+      <div class="divider-kolam"></div>
+    </div>
+
+    <!-- ========================================================
+         SECTION C: WEDDING INVITATION MESSAGE
+         ======================================================== -->
+    <section id="invitation" class="invitation-section">
+      <div class="content-container">
+        <div class="invitation-card-traditional">
+          <!-- Zari Borders & Corner Ornaments -->
+          <div class="card-filigree f-tl" aria-hidden="true"></div>
+          <div class="card-filigree f-tr" aria-hidden="true"></div>
+          <div class="card-filigree f-bl" aria-hidden="true"></div>
+          <div class="card-filigree f-br" aria-hidden="true"></div>
+
+          <div class="card-header-emblem">
+            <div class="mandala-icon" aria-hidden="true">
+              <svg viewBox="0 0 100 100" width="70" height="70">
+                <circle cx="50" cy="50" r="42" fill="none" stroke="#d4af37" stroke-width="2"/>
+                <circle cx="50" cy="50" r="32" fill="none" stroke="#8b1525" stroke-width="1.5" stroke-dasharray="2 4"/>
+                <polygon points="50,18 62,38 84,38 67,52 73,74 50,60 27,74 33,52 16,38 38,38" fill="#d4af37" opacity="0.9"/>
+                <circle cx="50" cy="50" r="10" fill="#5a0c19"/>
+                <circle cx="50" cy="50" r="4" fill="#fff2a3"/>
+              </svg>
+            </div>
+            <h3 class="section-subtitle">Auspicious Wedding Invitation</h3>
+            <h2 class="section-title">Together With Our Families</h2>
+          </div>
+
+          <div class="invitation-message-body">
+            <p class="invitation-lead-text">
+              With the blessings of our elders and the love of our families, we cordially invite you to join us as we celebrate the beginning of a beautiful new chapter in our lives.
+            </p>
+
+            <div class="ornamental-motif-center" aria-hidden="true">
+              <span class="motif-line"></span>
+              <span class="motif-flower">❦ ❖ ❦</span>
+              <span class="motif-line"></span>
+            </div>
+
+            <p class="invitation-heart-text">
+              Your presence and blessings will make our special day even more memorable.
+            </p>
+          </div>
+
+          <!-- Quick Action Buttons -->
+          <div class="invitation-actions">
+            <a href="#calendar-share" class="btn-traditional-gold">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                <path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20a2 2 0 0 0 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V10h14v10zm0-12H5V6h14v2z"/>
+              </svg>
+              <span>Add to Calendar</span>
+            </a>
+            <a href="#venue" class="btn-traditional-maroon">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+              </svg>
+              <span>Venue &amp; Location</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Ornamental Divider -->
+    <div class="section-divider" aria-hidden="true">
+      <div class="divider-kolam"></div>
+    </div>
+
+    <!-- ========================================================
+         SECTION E: LIVE WEDDING COUNTDOWN
+         ======================================================== -->
+    <section id="countdown" class="countdown-section">
+      <div class="content-container">
+        <div class="countdown-card">
+          <div class="countdown-header">
+            <span class="countdown-tag">COUNTDOWN TO MUHURTHAM</span>
+            <h2 class="countdown-title">Counting Down Every Moment</h2>
+            <p class="countdown-target-info">
+              Thursday, 26 November 2026 • 9:31 AM IST
+            </p>
+          </div>
+
+          <!-- Live Countdown Timer Units -->
+          <div id="countdownGrid" class="countdown-grid" role="timer" aria-live="polite">
+            <div class="countdown-unit">
+              <div class="unit-box">
+                <span id="countDays" class="unit-number">00</span>
+                <span class="unit-label">DAYS</span>
+              </div>
+              <div class="unit-sub">Surya Udaya</div>
+            </div>
+
+            <div class="countdown-separator">:</div>
+
+            <div class="countdown-unit">
+              <div class="unit-box">
+                <span id="countHours" class="unit-number">00</span>
+                <span class="unit-label">HOURS</span>
+              </div>
+              <div class="unit-sub">Ghatis</div>
+            </div>
+
+            <div class="countdown-separator">:</div>
+
+            <div class="countdown-unit">
+              <div class="unit-box">
+                <span id="countMinutes" class="unit-number">00</span>
+                <span class="unit-label">MINUTES</span>
+              </div>
+              <div class="unit-sub">Vighatis</div>
+            </div>
+
+            <div class="countdown-separator">:</div>
+
+            <div class="countdown-unit">
+              <div class="unit-box">
+                <span id="countSeconds" class="unit-number">00</span>
+                <span class="unit-label">SECONDS</span>
+              </div>
+              <div class="unit-sub">Kshanas</div>
+            </div>
+          </div>
+
+          <!-- Celebration Message (Displayed automatically after Muhurtham) -->
+          <div id="celebrationNotice" class="celebration-notice hidden">
+            <div class="celebration-icon" aria-hidden="true">🎉 𑁍 🎊</div>
+            <h3 class="celebration-heading">The Auspicious Muhurtham Has Arrived!</h3>
+            <p class="celebration-body">
+              Prajwal &amp; Prajna are happily united in sacred matrimony. We thank you from the bottom of our hearts for all your divine blessings, love, and warm wishes.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Ornamental Divider -->
+    <div class="section-divider" aria-hidden="true">
+      <div class="divider-kolam"></div>
+    </div>
+
+    <!-- ========================================================
+         SECTION D: REAL COUPLE PHOTO GALLERY
+         ======================================================== -->
+    <section id="gallery" class="gallery-section">
+      <div class="content-container">
+        <div class="section-heading-box text-center">
+          <div class="lotus-flourish" aria-hidden="true">𑁍</div>
+          <span class="section-subtitle">Cherished Moments</span>
+          <h2 class="section-title">Prajwal &amp; Prajna</h2>
+          <p class="section-description">
+            Glimpses of love, laughter, and timeless South Indian tradition. Click any photograph to view in full resolution.
+          </p>
+        </div>
+
+        <!-- Responsive Gallery Grid with Real Photos & Gold Ornaments -->
+        <div class="gallery-grid">
+          <!-- Photo 1: Traditional Couple Portrait -->
+          <div class="gallery-item-card" data-index="0">
+            <div class="gallery-frame">
+              <img src="assets/images/couple-traditional.jpg" 
+                   alt="Prajwal and Prajna in traditional South Indian wedding attire" 
+                   class="gallery-thumbnail" 
+                   loading="lazy">
+              <div class="gallery-hover-overlay">
+                <span class="gallery-zoom-icon">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                    <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+                    <path d="M12 10h-2v2H9v-2H7V9h2V7h1v2h2v1z"/>
+                  </svg>
+                </span>
+                <span class="gallery-caption-preview">Traditional Splendor</span>
+              </div>
+            </div>
+            <div class="gallery-label">
+              <h4 class="gallery-item-title">Traditional Splendor</h4>
+              <p class="gallery-item-desc">Prajwal &amp; Prajna in silk attire</p>
+            </div>
+          </div>
+
+          <!-- Photo 2: Couple in Nature -->
+          <div class="gallery-item-card" data-index="1">
+            <div class="gallery-frame">
+              <img src="assets/images/couple-nature.jpg" 
+                   alt="Prajwal and Prajna hand in hand amidst lush green nature" 
+                   class="gallery-thumbnail" 
+                   loading="lazy">
+              <div class="gallery-hover-overlay">
+                <span class="gallery-zoom-icon">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                    <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+                    <path d="M12 10h-2v2H9v-2H7V9h2V7h1v2h2v1z"/>
+                  </svg>
+                </span>
+                <span class="gallery-caption-preview">Hand in Hand in Nature</span>
+              </div>
+            </div>
+            <div class="gallery-label">
+              <h4 class="gallery-item-title">A Journey of Two Hearts</h4>
+              <p class="gallery-item-desc">Together in nature's serene embrace</p>
+            </div>
+          </div>
+
+          <!-- Photo 3: Prajwal (The Groom) -->
+          <div class="gallery-item-card" data-index="2">
+            <div class="gallery-frame">
+              <img src="assets/images/groom-prajwal.jpg" 
+                   alt="Prajwal, the groom" 
+                   class="gallery-thumbnail" 
+                   loading="lazy">
+              <div class="gallery-hover-overlay">
+                <span class="gallery-zoom-icon">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                    <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+                    <path d="M12 10h-2v2H9v-2H7V9h2V7h1v2h2v1z"/>
+                  </svg>
+                </span>
+                <span class="gallery-caption-preview">Prajwal</span>
+              </div>
+            </div>
+            <div class="gallery-label">
+              <h4 class="gallery-item-title">The Groom</h4>
+              <p class="gallery-item-desc">Prajwal</p>
+            </div>
+          </div>
+
+          <!-- Photo 4: Prajna (The Bride) -->
+          <div class="gallery-item-card" data-index="3">
+            <div class="gallery-frame">
+              <img src="assets/images/bride-prajna.jpg" 
+                   alt="Prajna, the bride" 
+                   class="gallery-thumbnail" 
+                   loading="lazy">
+              <div class="gallery-hover-overlay">
+                <span class="gallery-zoom-icon">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                    <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+                    <path d="M12 10h-2v2H9v-2H7V9h2V7h1v2h2v1z"/>
+                  </svg>
+                </span>
+                <span class="gallery-caption-preview">Prajna</span>
+              </div>
+            </div>
+            <div class="gallery-label">
+              <h4 class="gallery-item-title">The Bride</h4>
+              <p class="gallery-item-desc">Prajna</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Fullscreen Lightbox Modal for Photo Gallery -->
+    <div id="galleryModal" class="gallery-lightbox" role="dialog" aria-modal="true" aria-label="Photo Lightbox">
+      <div class="lightbox-backdrop"></div>
+      <button id="lightboxClose" class="lightbox-close" aria-label="Close photo viewer">✕</button>
+      <button id="lightboxPrev" class="lightbox-arrow prev" aria-label="Previous photograph">‹</button>
+      <button id="lightboxNext" class="lightbox-arrow next" aria-label="Next photograph">›</button>
+      
+      <div class="lightbox-content">
+        <div class="lightbox-img-wrap">
+          <img id="lightboxImage" src="" alt="Couple photo in full screen" class="lightbox-img">
+        </div>
+        <div id="lightboxCaption" class="lightbox-caption"></div>
+      </div>
+    </div>
+
+    <!-- Section Ornamental Divider -->
+    <div class="section-divider" aria-hidden="true">
+      <div class="divider-kolam"></div>
+    </div>
+
+    <!-- ========================================================
+         SECTION F: WEDDING CEREMONY DETAILS
+         ======================================================== -->
+    <section id="ceremony" class="ceremony-section">
+      <div class="content-container">
+        <div class="ceremony-card">
+          <!-- Traditional Temple Arch Motif -->
+          <div class="temple-arch-top" aria-hidden="true">
+            <svg viewBox="0 0 200 40" class="arch-svg">
+              <path d="M0 40 C60 0 140 0 200 40 L200 40 L0 40 Z" fill="#5a0c19"/>
+              <path d="M20 40 C70 12 130 12 180 40" fill="none" stroke="#d4af37" stroke-width="2"/>
+              <circle cx="100" cy="12" r="5" fill="#ffd700"/>
+            </svg>
+          </div>
+
+          <div class="ceremony-inner">
+            <div class="ceremony-badge">SACRED MATRIMONY</div>
+            <h2 class="ceremony-heading">THE WEDDING CEREMONY</h2>
+
+            <div class="gold-ornamental-divider" aria-hidden="true">
+              <span class="gold-line"></span>
+              <span class="gold-bell">🔔</span>
+              <span class="gold-line"></span>
+            </div>
+
+            <div class="ceremony-details-grid">
+              <!-- Date Card -->
+              <div class="detail-box">
+                <div class="detail-icon-wrap" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+                    <path d="M9 11H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2zm2-7h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20a2 2 0 0 0 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11z"/>
+                  </svg>
+                </div>
+                <div class="detail-content">
+                  <span class="detail-label">DATE</span>
+                  <strong class="detail-value">Thursday, 26 November 2026</strong>
+                </div>
+              </div>
+
+              <!-- Muhurtham Card -->
+              <div class="detail-box auspicious-box">
+                <div class="detail-icon-wrap" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+                    <path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/>
+                  </svg>
+                </div>
+                <div class="detail-content">
+                  <span class="detail-label">AUSPICIOUS MUHURTHAM</span>
+                  <strong class="detail-value highlight">9:31 AM IST</strong>
+                </div>
+              </div>
+
+              <!-- Venue Card -->
+              <div class="detail-box">
+                <div class="detail-icon-wrap" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+                    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                  </svg>
+                </div>
+                <div class="detail-content">
+                  <span class="detail-label">VENUE</span>
+                  <strong class="detail-value">Udupi Grameena Sabhabhavana</strong>
+                </div>
+              </div>
+
+              <!-- Address Card -->
+              <div class="detail-box">
+                <div class="detail-icon-wrap" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+                    <path d="M12 2l-5.5 9h11L12 2zm0 3.84L13.93 9h-3.86L12 5.84zM17.5 13c-2.49 0-4.5 2.01-4.5 4.5s2.01 4.5 4.5 4.5 4.5-2.01 4.5-4.5-2.01-4.5-4.5-4.5zm0 7c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5zM3 21.5h8v-2H3v2z"/>
+                  </svg>
+                </div>
+                <div class="detail-content">
+                  <span class="detail-label">ADDRESS</span>
+                  <strong class="detail-value">Moodubelle Road, Kuntalanagara</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Ornamental Divider -->
+    <div class="section-divider" aria-hidden="true">
+      <div class="divider-kolam"></div>
+    </div>
+
+    <!-- ========================================================
+         SECTION G: VENUE AND GOOGLE MAPS
+         ======================================================== -->
+    <section id="venue" class="venue-section">
+      <div class="content-container">
+        <div class="section-heading-box text-center">
+          <div class="location-pin-ornament" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="36" height="36" fill="#d4af37">
+              <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+            </svg>
+          </div>
+          <span class="section-subtitle">Venue &amp; Navigation</span>
+          <h2 class="section-title">Udupi Grameena Sabhabhavana</h2>
+          <p class="section-description">
+            Moodubelle Road, Kuntalanagara
+          </p>
+        </div>
+
+        <div class="venue-card-wrapper">
+          <!-- Google Map Embed -->
+          <div class="map-embed-container">
+            <iframe 
+              title="Google Map location for Udupi Grameena Sabhabhavana"
+              src="https://maps.google.com/maps?q=Udupi+Grameena+Sabhabhavana,+Moodubelle+Road,+Kuntalanagara&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+              width="100%" 
+              height="380" 
+              style="border:0;" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            
+            <div class="map-corner-trim tr" aria-hidden="true"></div>
+            <div class="map-corner-trim bl" aria-hidden="true"></div>
+          </div>
+
+          <!-- Venue Address & Quick Action Buttons -->
+          <div class="venue-info-bar">
+            <div class="venue-address-block">
+              <span class="venue-icon" aria-hidden="true">📍</span>
+              <div class="venue-text-details">
+                <strong class="venue-name-bold">Udupi Grameena Sabhabhavana</strong>
+                <p class="venue-road-text">Moodubelle Road, Kuntalanagara</p>
+              </div>
+            </div>
+
+            <div class="venue-buttons-group">
+              <!-- Get Directions Button linking to supplied destination -->
+              <a href="https://share.google/lgsBTNFpqHIBjumBe" 
+                 target="_blank" 
+                 rel="noopener noreferrer" 
+                 class="btn-venue-directions"
+                 aria-label="Get directions to wedding venue on Google Maps">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                  <path d="M21.71 11.29l-9-9c-.39-.39-1.02-.39-1.41 0l-9 9c-.39.39-.39 1.02 0 1.41l9 9c.39.39 1.02.39 1.41 0l9-9c.39-.38.39-1.01 0-1.41zM14 14.5V12h-4v3H8v-4c0-.55.45-1 1-1h5V7.5l3.5 3.5-3.5 3.5z"/>
+                </svg>
+                <span>Get Directions</span>
+              </a>
+
+              <!-- Open in Google Maps Button -->
+              <a href="https://share.google/lgsBTNFpqHIBjumBe" 
+                 target="_blank" 
+                 rel="noopener noreferrer" 
+                 class="btn-venue-open"
+                 aria-label="Open wedding venue destination in Google Maps">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                  <path d="M19 19H5V5h7V3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/>
+                </svg>
+                <span>Open in Google Maps</span>
+              </a>
+
+              <!-- Copy Address Button -->
+              <button id="copyAddressBtn" 
+                      class="btn-venue-copy" 
+                      data-address="Udupi Grameena Sabhabhavana, Moodubelle Road, Kuntalanagara"
+                      aria-label="Copy venue address to clipboard">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                  <path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/>
+                </svg>
+                <span id="copyBtnText">Copy Address</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Ornamental Divider -->
+    <div class="section-divider" aria-hidden="true">
+      <div class="divider-kolam"></div>
+    </div>
+
+    <!-- ========================================================
+         SECTIONS H & I: GOOGLE CALENDAR & WHATSAPP SHARING
+         ======================================================== -->
+    <section id="calendar-share" class="calendar-share-section">
+      <div class="content-container">
+        <div class="integration-grid">
+          
+          <!-- H. Add to Google Calendar Card -->
+          <div class="integration-card calendar-card">
+            <div class="integration-icon-badge calendar-badge" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="32" height="32" fill="currentColor">
+                <path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z"/>
+              </svg>
+            </div>
+            <h3 class="integration-card-title">Save The Sacred Date</h3>
+            <p class="integration-card-desc">
+              Add the auspicious Muhurtham to your Google Calendar with one click. Starts at 9:31 AM IST on 26 November 2026.
+            </p>
+            
+            <button id="addToCalendarBtn" class="btn-integration btn-calendar" aria-label="Add wedding to Google Calendar">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                <path d="M19 4h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20a2 2 0 0 0 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V10h14v10zm0-12H5V6h14v2z"/>
+              </svg>
+              <span>Add to Google Calendar</span>
+            </button>
+          </div>
+
+          <!-- I. WhatsApp Sharing Card -->
+          <div class="integration-card whatsapp-card">
+            <div class="integration-icon-badge whatsapp-badge" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="32" height="32" fill="currentColor">
+                <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm0 18.15c-1.49 0-2.94-.4-4.21-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.17 8.17 0 0 1-1.25-4.38c0-4.54 3.7-8.24 8.24-8.24 2.2 0 4.27.86 5.82 2.42a8.18 8.18 0 0 1 2.41 5.83c.01 4.54-3.69 8.23-8.22 8.23zm4.52-6.17c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.43s-.56-1.34-.76-1.84c-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.44.06-.66.31-.23.25-.88.86-.88 2.09 0 1.23.9 2.42 1.02 2.59.12.17 1.77 2.7 4.29 3.79.6.26 1.07.41 1.44.53.6.19 1.15.16 1.59.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.15-1.18-.07-.12-.23-.19-.48-.31z"/>
+              </svg>
+            </div>
+            <h3 class="integration-card-title">Share With Family &amp; Friends</h3>
+            <p class="integration-card-desc">
+              Send this wedding invitation directly to loved ones on WhatsApp with pre-filled ceremony details and link.
+            </p>
+            
+            <button id="shareWhatsAppBtn" class="btn-integration btn-whatsapp" aria-label="Share wedding invitation on WhatsApp">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z"/>
+              </svg>
+              <span>Share Wedding Invitation</span>
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Ornamental Divider -->
+    <div class="section-divider" aria-hidden="true">
+      <div class="divider-kolam"></div>
+    </div>
+
+    <!-- ========================================================
+         SECTION K: FAMILY BLESSINGS AND THANK-YOU SECTION
+         ======================================================== -->
+    <section id="blessings" class="blessings-section">
+      <div class="content-container">
+        <div class="blessings-card">
+          <!-- Traditional South Indian Floral Backdrop & Lamps -->
+          <div class="blessings-flanks left" aria-hidden="true">
+            <div class="floral-cluster">🌸 🌼 𑁍</div>
+          </div>
+          <div class="blessings-flanks right" aria-hidden="true">
+            <div class="floral-cluster">𑁍 🌼 🌸</div>
+          </div>
+
+          <div class="blessings-content">
+            <div class="blessings-emblem" aria-hidden="true">
+              <span class="blessing-om">ॐ</span>
+            </div>
+
+            <h3 class="blessings-subtitle">Sacred Prayers &amp; Gratitude</h3>
+            <h2 class="blessings-title">With Heartfelt Blessings</h2>
+
+            <div class="ornamental-motif-center" aria-hidden="true">
+              <span class="motif-line"></span>
+              <span class="motif-flower">✦ 𑁍 ✦</span>
+              <span class="motif-line"></span>
+            </div>
+
+            <p class="blessings-p1">
+              "With the blessings of our beloved families and elders, we begin this beautiful journey together."
+            </p>
+
+            <p class="blessings-p2">
+              "We would be honoured by your presence and blessings as we celebrate this special occasion."
+            </p>
+
+            <div class="blessings-closing-phrase">
+              "Thank you for being a part of our happiness."
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================
+         SECTION L: FINAL WEDDING SECTION
+         ======================================================== -->
+    <footer id="final" class="final-wedding-section">
+      <!-- Hanging Garlands and Brass Glow -->
+      <div class="final-backdrop" aria-hidden="true"></div>
+
+      <div class="content-container text-center">
+        <div class="final-mandala" aria-hidden="true">
+          <svg viewBox="0 0 100 100" width="80" height="80">
+            <circle cx="50" cy="50" r="46" fill="none" stroke="#d4af37" stroke-width="2"/>
+            <circle cx="50" cy="50" r="38" fill="none" stroke="#e6ca65" stroke-width="1" stroke-dasharray="2 3"/>
+            <path d="M50 8 L54 36 L82 20 L66 44 L92 50 L66 56 L82 80 L54 64 L50 92 L46 64 L18 80 L34 56 L8 50 L34 44 L18 20 L46 36 Z" fill="#d4af37" opacity="0.9"/>
+            <circle cx="50" cy="50" r="14" fill="#3b060d" stroke="#ffd700" stroke-width="2"/>
+            <circle cx="50" cy="50" r="5" fill="#ffd700"/>
+          </svg>
+        </div>
+
+        <h2 class="final-couple-title">PRAJWAL &amp; PRAJNA</h2>
+
+        <div class="final-quote-wrap">
+          <p class="final-quote">
+            “Your presence, love and blessings mean the world to us.”
+          </p>
+        </div>
+
+        <div class="final-date-tag">
+          <span class="badge-dot" aria-hidden="true">𑁍</span>
+          <span>26 NOVEMBER 2026</span>
+          <span class="badge-dot" aria-hidden="true">𑁍</span>
+        </div>
+
+        <p class="final-venue-note">
+          Udupi Grameena Sabhabhavana • Moodubelle Road, Kuntalanagara
+        </p>
+
+        <!-- Traditional Closing Kolam & Back to Top -->
+        <div class="final-footer-actions">
+          <button id="backToTopBtn" class="btn-back-to-top" aria-label="Return to top of page">
+            <span class="top-arrow" aria-hidden="true">▲</span>
+            <span>Back to Top</span>
+          </button>
+        </div>
+
+        <div class="final-cultural-signoff">
+          <span>॥ ಶುಭಮಸ್ತು • Mangalam Bhavatu ॥</span>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- Toast Notification (for address copied feedback) -->
+  <div id="toastMessage" class="toast-message" role="alert" aria-live="assertive"></div>
+
+  <!-- Main JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
